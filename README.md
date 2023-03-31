@@ -1,11 +1,14 @@
-# L'essentiel d'OpenAI et des modèles de langage GPT
+# Gérer les États avec React
 
-Ce dossier Repository est lié au cours `L'essentiel d'OpenAI et des modèles de langage GPT`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `Gérer les États avec React`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
 
 ![Nom final de la formation][lil-thumbnail-url]
 
-Bienvenue dans le future du développement web avec cette introduction au langage GPT, qui fournit des modèles de langage puissants, capables d'exécuter diverses tâches de traitement et de manipulation de texte pour générer, synthétiser, corriger et même traduire du texte.
-Dans ce cours, on apprend à utiliser les modèles de langage GPT :  Text Completion, les APIs ChatGPT et DALL·E pour créer des applications nouvelle génération avec le Natural Language Processing (NLP).
+Les applications React reposent sur le puissant modèle de composition pour créer des interfaces visuelles intéractives. Et, avec le concept de programmation déclarative, le comportement des applications React est piloté par l'état. Les bases de toute application React reposent sur la réutilisabilité et l'état des composants. 
+Il s'agit d'une question transversale connue.
+- Comment gérer l'état et la transmission de données quand l'application grandit ?
+- Et, comment gérer efficacement le partage de logique et de séparation des responsabilités sans jamais créer d'interdépendances ?
+On découvre les solutions qui présentent l'avantage de faciliter le développement d'applications robustes et à grande échelle avec un minimum d'effort et de configuration pour gérer l'état de nos applications React. 
 
 Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail.  
 
