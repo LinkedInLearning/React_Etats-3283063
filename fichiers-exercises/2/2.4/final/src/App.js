@@ -1,4 +1,4 @@
-import { useState, useEffect, useReducer, useMemo } from "react";
+import { useState, useEffect, useReducer } from "react";
 import "./App.css";
 
 const styles = {
@@ -6,11 +6,10 @@ const styles = {
 };
 
 const Count = ({ aboveZero, count }) => {
-  const color = useMemo(
-    () => (aboveZero ? "text-primary" : "text-danger"),
-    [aboveZero]
-  );
-  return <p className={`${color} h1 mb-2`}>{count}</p>;
+  if (aboveZero) {
+    return <p className="text-primary h1 mb-2">{count}</p>;
+  }
+  return <p className="text-danger text-primary h1 mb-2">{count}</p>;
 };
 const TopButtons = ({ increment, decrement, reset }) => {
   return (
