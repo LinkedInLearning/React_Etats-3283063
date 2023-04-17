@@ -104,7 +104,7 @@ function App() {
     <div className="container mt-5" style={styles.container}>
       <h1 className="text-center">Counter App</h1>
       <div className="App-border text-center p-4">
-        <Count count={state.count} aboveZero={aboveZero} />
+        <Count count={count} aboveZero={aboveZero} />
         <TopButtons increment={increment} decrement={decrement} reset={reset} />
         <BottomButtons increment={incrementBy10} decrement={decrementBy10} />
       </div>
