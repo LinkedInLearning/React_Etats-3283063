@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState, useEffect, useReducer } from "react"
 import "./App.css";
 
 const styles = {
@@ -55,9 +55,12 @@ const BottomButtons = ({ increment, decrement }) => {
   );
 };
 
+const initialState = {}
+function reducer() { }
 
 function App() {
   // useState
+  const [state, dispatch] = useReducer(() => { }, {})
   const [count, setCount] = useState(0)
   const [aboveZero, toggleAboveZero] = useState(false)
   const increment = () => setCount(prevCount => prevCount + 1)
