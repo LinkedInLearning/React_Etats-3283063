@@ -87,7 +87,7 @@ function reducer(state, action) {
 
 function App() {
   // useState
-  const [state, dispatch] = useReducer(() => {}, {});
+  const [state, dispatch] = useReducer(reducer, initialState);
   const [count, setCount] = useState(0);
   const [aboveZero, toggleAboveZero] = useState(false);
   const increment = () => setCount((prevCount) => prevCount + 1);
@@ -98,7 +98,7 @@ function App() {
 
   useEffect(() => {
     toggleAboveZero(count >= 0);
-  }, [count]);
+  }, [state.count]);
 
   return (
     <div className="container mt-5" style={styles.container}>

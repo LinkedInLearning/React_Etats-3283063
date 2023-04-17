@@ -87,24 +87,23 @@ function reducer(state, action) {
 
 function App() {
   // useState
-  const [state, dispatch] = useReducer(() => {}, {});
-  const [count, setCount] = useState(0);
+  const [state, dispatch] = useReducer(reducer, initialState);
   const [aboveZero, toggleAboveZero] = useState(false);
-  const increment = () => setCount((prevCount) => prevCount + 1);
-  const decrement = () => setCount((prevCount) => prevCount - 1);
-  const incrementBy10 = () => setCount((prevCount) => prevCount + 10);
-  const decrementBy10 = () => setCount((prevCount) => prevCount - 10);
-  const reset = () => setCount(0);
+  const increment = () => dispatch({ type: "increment" });
+  const decrement = () => dispatch({ type: "decrement" });
+  const incrementBy10 = () => dispatch({ type: "incrementBy10" });
+  const decrementBy10 = () => dispatch({ type: "decrementBy10" });
+  const reset = () => dispatch({ type: "reset" });
 
   useEffect(() => {
-    toggleAboveZero(count >= 0);
-  }, [count]);
+    toggleAboveZero(state.count >= 0);
+  }, [state.count]);
 
   return (
     <div className="container mt-5" style={styles.container}>
       <h1 className="text-center">Counter App</h1>
       <div className="App-border text-center p-4">
-        <Count count={count} aboveZero={aboveZero} />
+        <Count count={state.count} aboveZero={aboveZero} />
         <TopButtons increment={increment} decrement={decrement} reset={reset} />
         <BottomButtons increment={incrementBy10} decrement={decrementBy10} />
       </div>

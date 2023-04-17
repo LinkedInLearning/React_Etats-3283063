@@ -97,14 +97,14 @@ function App() {
   const reset = () => setCount(0);
 
   useEffect(() => {
-    toggleAboveZero(count >= 0);
-  }, [count]);
+    toggleAboveZero(state.count >= 0);
+  }, [state.count]);
 
   return (
     <div className="container mt-5" style={styles.container}>
       <h1 className="text-center">Counter App</h1>
       <div className="App-border text-center p-4">
-        <Count count={count} aboveZero={aboveZero} />
+        <Count count={state.count} aboveZero={aboveZero} />
         <TopButtons increment={increment} decrement={decrement} reset={reset} />
         <BottomButtons increment={incrementBy10} decrement={decrementBy10} />
       </div>
