@@ -149,6 +149,7 @@ function App() {
         isVisible={isVisible}
         onSubmit={onSubmit}
         onChange={setInput}
+        check={check}
         show={show}
         archive={archive}
       />
