@@ -18,5 +18,25 @@ const checklistSlice = createSlice({
       state.items = [...state.items, action.payload];
       state.all = [...state.all, action.payload];
     },
+    show: (state, action) => {
+      state.isFiltered = action.payload;
+    },
+    check: (state, action) => {
+      const updated = all.map((item) => {
+        return item.id === action.payload
+          ? { ...item, done: !item.done }
+          : item;
+      });
+      state.items = updated;
+      state.all = updated;
+    },
+    archive: (state) => {
+      const updated = all.filter((item) => !item.done);
+      state.items = updated;
+      state.all = updated;
+    },
   },
 });
+
+export const { submit, show, check, archive } = checklistSlice.actions;
+export default checklistSlice.reducer;
