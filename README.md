@@ -25,7 +25,7 @@ Ce dépôt GitHub vous permet d'exécuter directement les exercices dans CodeSpa
 
 **Sandy Ludosky** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
+ Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/sandy-ludosky).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
