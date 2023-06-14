@@ -1,6 +1,6 @@
 # React.js : Gérer les états d'application
 
-Ce dossier Repository est lié au cours `React.js : Gérer les états d'application`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `React.js : Gérer les états d'application`. Le cours entier est disponible sur [LinkedIn Learning](https://www.linkedin.com/learning/react-js-gerer-les-etats-d-application-22389783).
 
 ![Nom final de la formation][lil-thumbnail-url]
 
