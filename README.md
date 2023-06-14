@@ -29,4 +29,10 @@ Ce dépôt GitHub vous permet d'exécuter directement les exercices dans CodeSpa
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
+[0]: # (Replace these placeholder URLs with actual course URLs)
+[lil-course-url]: https://www.linkedin.com/learning/react-js-gerer-les-etats-d-application-22389783
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQG5vwvdp0w2kg/learning-public-crop_675_1200/0/1686724770115?e=2147483647&v=beta&t=kw5Yn1G5U_dNGXg8UbcSAg0RQD9-vk-l0NilZUJOT5A
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/sandy-ludosky
+
+[1]: # (End of FR-Instruction ###############################################################################################)
 [1]: # (End of FR-Instruction ###############################################################################################)
