@@ -2,6 +2,8 @@
 
 Ce dossier Repository est lié au cours `React.js : Gérer les états d'application`. Le cours entier est disponible sur [LinkedIn Learning](https://www.linkedin.com/learning/react-js-gerer-les-etats-d-application-22389783).
 
+Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. Consultez la vidéo "Utilisation de Codespaces GitHub dans le cadre de ce cours" pour savoir comment démarrer.    
+
 ![Nom final de la formation][lil-thumbnail-url]
 
 Les applications React reposent sur le puissant modèle de composition pour créer des interfaces visuelles intéractives. Et, avec le concept de programmation déclarative, le comportement des applications React est piloté par l'état. Les bases de toute application React reposent sur la réutilisabilité et l'état des composants. 
