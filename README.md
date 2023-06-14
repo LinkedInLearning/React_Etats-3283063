@@ -1,6 +1,8 @@
-# Gérer les États avec React
+# React.js : Gérer les états d'application
 
-Ce dossier Repository est lié au cours `Gérer les États avec React`. Le cours entier est disponible sur [LinkedIn Learning][lil-course-url].
+Ce dossier Repository est lié au cours `React.js : Gérer les états d'application`. Le cours entier est disponible sur [LinkedIn Learning](https://www.linkedin.com/learning/react-js-gerer-les-etats-d-application-22389783).
+
+Ce cours est intégré à GitHub Codespaces, un environnement de développement instantané « dans le nuage » qui offre toutes les fonctionnalités de votre IDE préféré sans nécessiter de configuration sur une machine locale. Avec Codespaces, vous pouvez vous exercer à partir de n'importe quelle machine, à tout moment, tout en utilisant un outil que vous êtes susceptible de rencontrer sur votre lieu de travail. Consultez la vidéo "Utilisation de Codespaces GitHub dans le cadre de ce cours" pour savoir comment démarrer.    
 
 ![Nom final de la formation][lil-thumbnail-url]
 
@@ -25,8 +27,14 @@ Ce dépôt GitHub vous permet d'exécuter directement les exercices dans CodeSpa
 
 **Sandy Ludosky** 
 
- Retrouvez mes autres formations sur [LinkedIn Learning][lil-URL-trainer].
+ Retrouvez mes autres formations sur [LinkedIn Learning](https://www.linkedin.com/learning/instructors/sandy-ludosky).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
+[0]: # (Replace these placeholder URLs with actual course URLs)
+[lil-course-url]: https://www.linkedin.com/learning/react-js-gerer-les-etats-d-application-22389783
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQG5vwvdp0w2kg/learning-public-crop_675_1200/0/1686724770115?e=2147483647&v=beta&t=kw5Yn1G5U_dNGXg8UbcSAg0RQD9-vk-l0NilZUJOT5A
+[lil-URL-trainer]: https://www.linkedin.com/learning/instructors/sandy-ludosky
+
+[1]: # (End of FR-Instruction ###############################################################################################)
 [1]: # (End of FR-Instruction ###############################################################################################)
